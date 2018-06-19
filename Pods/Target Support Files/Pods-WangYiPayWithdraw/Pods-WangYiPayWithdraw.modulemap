@@ -1,0 +1,6 @@
+module Pods_WangYiPayWithdraw {
+  umbrella header "Pods-WangYiPayWithdraw-umbrella.h"
+
+  export *
+  module * { export * }
+}

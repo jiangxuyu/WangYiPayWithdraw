@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00088643AABCD37C2739CB028AA722B9 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5681A11A32E8B6AB9ED023CA9AB90D81 /* ConstraintRelatableTarget.swift */; };
+		033FEA06F932977FF51F41549913388C /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFA0C564755FC568A0C2834B96399D /* ConstraintMaker.swift */; };
+		0ABC61A258A249862DDD0AAFBE204FF9 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE9C261DDF8EFDC6E3EF9219A68D0CF /* LayoutConstraint.swift */; };
+		11F966A08D4269ADEDE5C90BAF44523B /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA4713163E72D00C09605024588FCC /* ConstraintItem.swift */; };
+		14C3FD007D32FA8B2585409B40459179 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C86E1221B6283920D699F0DF77FE281 /* ConstraintPriorityTarget.swift */; };
+		14D83C77AAA2B59CDA6A07547DD7082B /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B684D5E47C6E134C0CCFDEACC54AA158 /* Constraint.swift */; };
+		15ABD90E49248C995A06E7E21E2F8DEA /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6EDEB0CA97B1922F07D093C049CC7 /* ConstraintMakerEditable.swift */; };
+		15E32EE05A41B6A3D4254CD4BBC0C6F9 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB167E53FA56D2BAAD961566CAB8E477 /* ConstraintLayoutSupportDSL.swift */; };
+		1A5653941897C21F392B3533286B3BF1 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC392E15D412EB9584E68788A004A67 /* ConstraintLayoutGuideDSL.swift */; };
+		25BE678AEA7D2B1F8639D9C9E4CB1E2D /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF56DCB22DC9990DD4D1AB712B91DB /* ConstraintLayoutSupport.swift */; };
+		33DA76B150CA5E68164978639A9BC7E7 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E78B70ECA8036E2383A62054A74DD8 /* SnapKit-dummy.m */; };
+		43B15AFC10B61908400483DE113426C1 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5034BDB36CC7AC72636C87AD5668CFA0 /* ConstraintInsetTarget.swift */; };
+		587CF4C7698C3432108A0477720EFB49 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A31C0083A28E228ED522B110D7EC0A /* Debugging.swift */; };
+		78BDCF8DAA8DA1F80A3174FD4BC12265 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E818950EAF88E95A563D8DF6DFAFFB /* ConstraintPriority.swift */; };
+		82AB0D929FBEE889504FBA8A91B9594D /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95DFFA527460BA897C53F910A73085 /* ConstraintDescription.swift */; };
+		82C00971CFA386916E7F9F7D4FC7865E /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163604726C465017D2FCB0F91F249111 /* ConstraintMakerExtendable.swift */; };
+		889B3136C4D6FBF1C0142A84C452E3B6 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315F264249AB49AD2DA056DA186822AB /* UILayoutSupport+Extensions.swift */; };
+		8FAA09FB29ECEF071C5C90617931178A /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFFA0357F91DD82B5A22724B2CE57D2 /* ConstraintView.swift */; };
+		A07320E77AAF6C66E93CDB21DDC69D68 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24E9581544E10661CA536960049D7D4 /* ConstraintMakerFinalizable.swift */; };
+		A37D09C33C9B87DB2DF46215C1625A7A /* Pods-WangYiPayWithdraw-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBA81AB45C2B96F3064914009B102E /* Pods-WangYiPayWithdraw-dummy.m */; };
+		A6B121312FDC8922B38A34F2896AE283 /* Pods-WangYiPayWithdraw-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA724D36A0CC971D5042D3A2A4CF0DB3 /* Pods-WangYiPayWithdraw-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A78E6127A365174D2806E8FB8474C43D /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = A743F23A0ACC72C8BC1B871930FB8861 /* Typealiases.swift */; };
+		AFCD14D72F4D10E41F5E3CE698DD1C84 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BA02EA99EAA81C36351644120E8044 /* ConstraintRelation.swift */; };
+		B069019AABD5D4F6D2CD83C8EF715E38 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63B7A141579B728F91A1B350BD6620A /* ConstraintMakerRelatable.swift */; };
+		B74494F895865B5F6A9665E1F8971A7B /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7D2DB7663DD0E8D2CAC0933BE1799A /* ConstraintOffsetTarget.swift */; };
+		BDDF6CAC7C6EE56C6D794962465DEEA1 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F29B67C8BA938E591AAFE04B601DE /* ConstraintConstantTarget.swift */; };
+		C03AFCD0E22213543C32F417F6727731 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F3AFBBBF7ABC4626787C5A5A1440F /* ConstraintViewDSL.swift */; };
+		C34FC13A0934BFB63A94E4603451C2AA /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E203C34144CA9EE5CB48A23C3AFB1AE /* ConstraintInsets.swift */; };
+		CBCDC6F4D86CD306ADC309A66E1DDA75 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08064D432E04F898D67D310C95BFB93C /* ConstraintLayoutGuide+Extensions.swift */; };
+		CCD01A9FFEB7955A6ABAE6C5CD64C2D6 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E5A1CF46B38DB1E135689931FB733 /* ConstraintMultiplierTarget.swift */; };
+		CD5FE71E291968B481CB51BA433DB4FF /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA9815448CD38E40F57AE5AF1A02B20 /* ConstraintConfig.swift */; };
+		E3E64F6C252C14B43FFE7ADB56F69E4C /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA192D88CE1143EB5CE2D3165431B6F2 /* ConstraintDSL.swift */; };
+		E46AA52AB2EBCCA2F72EB78640BE112C /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3977FC305AA45B64BCA4B3AFE8782271 /* ConstraintAttributes.swift */; };
+		E5797871B5BEB53EB0EEC314F96647A0 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67996A7DEF55C5B39662D54CD0753CDF /* ConstraintMakerPriortizable.swift */; };
+		E73C5F94421A51BA0A7D44DBB9D9A594 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDEB9561BE96A9AA0DA7F9339115E5 /* ConstraintLayoutGuide.swift */; };
+		F19D019D9AE41A20CE1006411CD071C9 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F8F01CDB83DA7802D270354491A158 /* LayoutConstraintItem.swift */; };
+		F5BCED1829015DDDCEC615889C6F67FB /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D963233223950AB70DAF9578FE1CE0B /* ConstraintView+Extensions.swift */; };
+		F8EB9679BE71673D63A449ED0F76519D /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7899D8F238836B6DF3B9EB2EDF9D5F5D /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54A96A5A8F8B323459350017057F8223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D291254B2BD23E0B9B78A7F2153ED199;
+			remoteInfo = SnapKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A31C0083A28E228ED522B110D7EC0A /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		053F3AFBBBF7ABC4626787C5A5A1440F /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		08064D432E04F898D67D310C95BFB93C /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		0C7D2DB7663DD0E8D2CAC0933BE1799A /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		12241A66E5A2229D9B8C528394F3670C /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		163604726C465017D2FCB0F91F249111 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		228E1C888B7216501809E1DD7E886944 /* Pods-WangYiPayWithdraw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WangYiPayWithdraw.release.xcconfig"; sourceTree = "<group>"; };
+		2A4F29B67C8BA938E591AAFE04B601DE /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		2AFFA0357F91DD82B5A22724B2CE57D2 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		315F264249AB49AD2DA056DA186822AB /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		3977FC305AA45B64BCA4B3AFE8782271 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		3C86E1221B6283920D699F0DF77FE281 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		3D4E5A1CF46B38DB1E135689931FB733 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		3FA58904C1B77336EBD52BCA2B1A902A /* libPods-WangYiPayWithdraw.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WangYiPayWithdraw.a"; path = "libPods-WangYiPayWithdraw.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E78B70ECA8036E2383A62054A74DD8 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		4CCFA0C564755FC568A0C2834B96399D /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		4DCEB2154BF515F83F70BDF57237D39B /* Pods-WangYiPayWithdraw-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WangYiPayWithdraw-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E203C34144CA9EE5CB48A23C3AFB1AE /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		4EC392E15D412EB9584E68788A004A67 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		5034BDB36CC7AC72636C87AD5668CFA0 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		53F8F01CDB83DA7802D270354491A158 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		5681A11A32E8B6AB9ED023CA9AB90D81 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		5EA9815448CD38E40F57AE5AF1A02B20 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		62CBA81AB45C2B96F3064914009B102E /* Pods-WangYiPayWithdraw-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WangYiPayWithdraw-dummy.m"; sourceTree = "<group>"; };
+		67996A7DEF55C5B39662D54CD0753CDF /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		74F15133B7B028BAB2D6B1643F5A2C1A /* Pods-WangYiPayWithdraw-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WangYiPayWithdraw-frameworks.sh"; sourceTree = "<group>"; };
+		7899D8F238836B6DF3B9EB2EDF9D5F5D /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SnapKit-umbrella.h"; path = "../../Headers/Public/SnapKit/SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		845E4A9610560410118703FA1EFC59BC /* Pods-WangYiPayWithdraw-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WangYiPayWithdraw-resources.sh"; sourceTree = "<group>"; };
+		8DBA4713163E72D00C09605024588FCC /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98E98EFB7CF4F507B81DDB353158494F /* Pods-WangYiPayWithdraw.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WangYiPayWithdraw.modulemap"; sourceTree = "<group>"; };
+		9D963233223950AB70DAF9578FE1CE0B /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		9E5A1ED79BA689D647488D09358746D2 /* Pods-WangYiPayWithdraw-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WangYiPayWithdraw-acknowledgements.plist"; sourceTree = "<group>"; };
+		9FB24D3A4FDC456280FE22113743BB77 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = SnapKit.modulemap; path = ../../Headers/Public/SnapKit/SnapKit.modulemap; sourceTree = "<group>"; };
+		A6D6EDEB0CA97B1922F07D093C049CC7 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		A743F23A0ACC72C8BC1B871930FB8861 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		AA192D88CE1143EB5CE2D3165431B6F2 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		B684D5E47C6E134C0CCFDEACC54AA158 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		BA724D36A0CC971D5042D3A2A4CF0DB3 /* Pods-WangYiPayWithdraw-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WangYiPayWithdraw-umbrella.h"; sourceTree = "<group>"; };
+		BCE9C261DDF8EFDC6E3EF9219A68D0CF /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		BDDF56DCB22DC9990DD4D1AB712B91DB /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		C24E9581544E10661CA536960049D7D4 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		CAEDEB9561BE96A9AA0DA7F9339115E5 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		CB167E53FA56D2BAAD961566CAB8E477 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		CE95DFFA527460BA897C53F910A73085 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		CFC25BC259F12BCAB6E7357EBC005DAE /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		D26F7E3DB88AD9CC876A6472069C473F /* Pods-WangYiPayWithdraw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WangYiPayWithdraw.debug.xcconfig"; sourceTree = "<group>"; };
+		D5E5EBD995D77E9A1D36EC09FD4C75C6 /* libSnapKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSnapKit.a; path = libSnapKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9BA02EA99EAA81C36351644120E8044 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		F2E818950EAF88E95A563D8DF6DFAFFB /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		F63B7A141579B728F91A1B350BD6620A /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73706E3E7092C9E5EC02235B4DBF3A9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73D3A65662861E7D928B1519A496CCFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EF0B418C061E0DE826345370B4C986E /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				B684D5E47C6E134C0CCFDEACC54AA158 /* Constraint.swift */,
+				3977FC305AA45B64BCA4B3AFE8782271 /* ConstraintAttributes.swift */,
+				5EA9815448CD38E40F57AE5AF1A02B20 /* ConstraintConfig.swift */,
+				2A4F29B67C8BA938E591AAFE04B601DE /* ConstraintConstantTarget.swift */,
+				CE95DFFA527460BA897C53F910A73085 /* ConstraintDescription.swift */,
+				AA192D88CE1143EB5CE2D3165431B6F2 /* ConstraintDSL.swift */,
+				4E203C34144CA9EE5CB48A23C3AFB1AE /* ConstraintInsets.swift */,
+				5034BDB36CC7AC72636C87AD5668CFA0 /* ConstraintInsetTarget.swift */,
+				8DBA4713163E72D00C09605024588FCC /* ConstraintItem.swift */,
+				CAEDEB9561BE96A9AA0DA7F9339115E5 /* ConstraintLayoutGuide.swift */,
+				08064D432E04F898D67D310C95BFB93C /* ConstraintLayoutGuide+Extensions.swift */,
+				4EC392E15D412EB9584E68788A004A67 /* ConstraintLayoutGuideDSL.swift */,
+				BDDF56DCB22DC9990DD4D1AB712B91DB /* ConstraintLayoutSupport.swift */,
+				CB167E53FA56D2BAAD961566CAB8E477 /* ConstraintLayoutSupportDSL.swift */,
+				4CCFA0C564755FC568A0C2834B96399D /* ConstraintMaker.swift */,
+				A6D6EDEB0CA97B1922F07D093C049CC7 /* ConstraintMakerEditable.swift */,
+				163604726C465017D2FCB0F91F249111 /* ConstraintMakerExtendable.swift */,
+				C24E9581544E10661CA536960049D7D4 /* ConstraintMakerFinalizable.swift */,
+				67996A7DEF55C5B39662D54CD0753CDF /* ConstraintMakerPriortizable.swift */,
+				F63B7A141579B728F91A1B350BD6620A /* ConstraintMakerRelatable.swift */,
+				3D4E5A1CF46B38DB1E135689931FB733 /* ConstraintMultiplierTarget.swift */,
+				0C7D2DB7663DD0E8D2CAC0933BE1799A /* ConstraintOffsetTarget.swift */,
+				F2E818950EAF88E95A563D8DF6DFAFFB /* ConstraintPriority.swift */,
+				3C86E1221B6283920D699F0DF77FE281 /* ConstraintPriorityTarget.swift */,
+				5681A11A32E8B6AB9ED023CA9AB90D81 /* ConstraintRelatableTarget.swift */,
+				E9BA02EA99EAA81C36351644120E8044 /* ConstraintRelation.swift */,
+				2AFFA0357F91DD82B5A22724B2CE57D2 /* ConstraintView.swift */,
+				9D963233223950AB70DAF9578FE1CE0B /* ConstraintView+Extensions.swift */,
+				053F3AFBBBF7ABC4626787C5A5A1440F /* ConstraintViewDSL.swift */,
+				02A31C0083A28E228ED522B110D7EC0A /* Debugging.swift */,
+				BCE9C261DDF8EFDC6E3EF9219A68D0CF /* LayoutConstraint.swift */,
+				53F8F01CDB83DA7802D270354491A158 /* LayoutConstraintItem.swift */,
+				A743F23A0ACC72C8BC1B871930FB8861 /* Typealiases.swift */,
+				315F264249AB49AD2DA056DA186822AB /* UILayoutSupport+Extensions.swift */,
+				851B0387893B4E1A4CF820AA812B48FF /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		0F14D01B37C684095099AE8C8376D636 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EF0B418C061E0DE826345370B4C986E /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D09DD69AE6E6CB59E93316D845B298B /* Pods-WangYiPayWithdraw */ = {
+			isa = PBXGroup;
+			children = (
+				98E98EFB7CF4F507B81DDB353158494F /* Pods-WangYiPayWithdraw.modulemap */,
+				4DCEB2154BF515F83F70BDF57237D39B /* Pods-WangYiPayWithdraw-acknowledgements.markdown */,
+				9E5A1ED79BA689D647488D09358746D2 /* Pods-WangYiPayWithdraw-acknowledgements.plist */,
+				62CBA81AB45C2B96F3064914009B102E /* Pods-WangYiPayWithdraw-dummy.m */,
+				74F15133B7B028BAB2D6B1643F5A2C1A /* Pods-WangYiPayWithdraw-frameworks.sh */,
+				845E4A9610560410118703FA1EFC59BC /* Pods-WangYiPayWithdraw-resources.sh */,
+				BA724D36A0CC971D5042D3A2A4CF0DB3 /* Pods-WangYiPayWithdraw-umbrella.h */,
+				D26F7E3DB88AD9CC876A6472069C473F /* Pods-WangYiPayWithdraw.debug.xcconfig */,
+				228E1C888B7216501809E1DD7E886944 /* Pods-WangYiPayWithdraw.release.xcconfig */,
+			);
+			name = "Pods-WangYiPayWithdraw";
+			path = "Target Support Files/Pods-WangYiPayWithdraw";
+			sourceTree = "<group>";
+		};
+		3FDB53CDAA1F6F06D1BFA93C2B8FB6BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FA58904C1B77336EBD52BCA2B1A902A /* libPods-WangYiPayWithdraw.a */,
+				D5E5EBD995D77E9A1D36EC09FD4C75C6 /* libSnapKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				0F14D01B37C684095099AE8C8376D636 /* Pods */,
+				3FDB53CDAA1F6F06D1BFA93C2B8FB6BC /* Products */,
+				9A345B12B0A51F6B9B5BBD4DAC7C9E3D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		851B0387893B4E1A4CF820AA812B48FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FB24D3A4FDC456280FE22113743BB77 /* SnapKit.modulemap */,
+				CFC25BC259F12BCAB6E7357EBC005DAE /* SnapKit.xcconfig */,
+				44E78B70ECA8036E2383A62054A74DD8 /* SnapKit-dummy.m */,
+				12241A66E5A2229D9B8C528394F3670C /* SnapKit-prefix.pch */,
+				7899D8F238836B6DF3B9EB2EDF9D5F5D /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		9A345B12B0A51F6B9B5BBD4DAC7C9E3D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D09DD69AE6E6CB59E93316D845B298B /* Pods-WangYiPayWithdraw */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4721F993BC7B4E88D7F5CA2097860199 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B121312FDC8922B38A34F2896AE283 /* Pods-WangYiPayWithdraw-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA314A9102F854AB70CF9812DB58D3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8EB9679BE71673D63A449ED0F76519D /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5B611831ADBEC84652A0DA16F3A7DA4C /* Pods-WangYiPayWithdraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09601C97221AD067AA3279459CA07A56 /* Build configuration list for PBXNativeTarget "Pods-WangYiPayWithdraw" */;
+			buildPhases = (
+				00E259CA6F46EBA26B8B58FA25860886 /* Sources */,
+				73D3A65662861E7D928B1519A496CCFD /* Frameworks */,
+				4721F993BC7B4E88D7F5CA2097860199 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7474E9098CA04C2102BDA4F4EB70BCA6 /* PBXTargetDependency */,
+			);
+			name = "Pods-WangYiPayWithdraw";
+			productName = "Pods-WangYiPayWithdraw";
+			productReference = 3FA58904C1B77336EBD52BCA2B1A902A /* libPods-WangYiPayWithdraw.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D291254B2BD23E0B9B78A7F2153ED199 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BA6E958D8998B4253D4385286840B2 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				917B661876567D955D6EBC3E9DA84754 /* Sources */,
+				73706E3E7092C9E5EC02235B4DBF3A9E /* Frameworks */,
+				DDA314A9102F854AB70CF9812DB58D3F /* Headers */,
+				AE801B7630E1E829BCEB6A05DD34F27A /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = D5E5EBD995D77E9A1D36EC09FD4C75C6 /* libSnapKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3FDB53CDAA1F6F06D1BFA93C2B8FB6BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B611831ADBEC84652A0DA16F3A7DA4C /* Pods-WangYiPayWithdraw */,
+				D291254B2BD23E0B9B78A7F2153ED199 /* SnapKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AE801B7630E1E829BCEB6A05DD34F27A /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SnapKit/SnapKit.modulemap",
+				"${PODS_ROOT}/Headers/Public/SnapKit/SnapKit-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SnapKit-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SnapKit/SnapKit.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SnapKit/SnapKit-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E259CA6F46EBA26B8B58FA25860886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37D09C33C9B87DB2DF46215C1625A7A /* Pods-WangYiPayWithdraw-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917B661876567D955D6EBC3E9DA84754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14D83C77AAA2B59CDA6A07547DD7082B /* Constraint.swift in Sources */,
+				E46AA52AB2EBCCA2F72EB78640BE112C /* ConstraintAttributes.swift in Sources */,
+				CD5FE71E291968B481CB51BA433DB4FF /* ConstraintConfig.swift in Sources */,
+				BDDF6CAC7C6EE56C6D794962465DEEA1 /* ConstraintConstantTarget.swift in Sources */,
+				82AB0D929FBEE889504FBA8A91B9594D /* ConstraintDescription.swift in Sources */,
+				E3E64F6C252C14B43FFE7ADB56F69E4C /* ConstraintDSL.swift in Sources */,
+				C34FC13A0934BFB63A94E4603451C2AA /* ConstraintInsets.swift in Sources */,
+				43B15AFC10B61908400483DE113426C1 /* ConstraintInsetTarget.swift in Sources */,
+				11F966A08D4269ADEDE5C90BAF44523B /* ConstraintItem.swift in Sources */,
+				CBCDC6F4D86CD306ADC309A66E1DDA75 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				E73C5F94421A51BA0A7D44DBB9D9A594 /* ConstraintLayoutGuide.swift in Sources */,
+				1A5653941897C21F392B3533286B3BF1 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				25BE678AEA7D2B1F8639D9C9E4CB1E2D /* ConstraintLayoutSupport.swift in Sources */,
+				15E32EE05A41B6A3D4254CD4BBC0C6F9 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				033FEA06F932977FF51F41549913388C /* ConstraintMaker.swift in Sources */,
+				15ABD90E49248C995A06E7E21E2F8DEA /* ConstraintMakerEditable.swift in Sources */,
+				82C00971CFA386916E7F9F7D4FC7865E /* ConstraintMakerExtendable.swift in Sources */,
+				A07320E77AAF6C66E93CDB21DDC69D68 /* ConstraintMakerFinalizable.swift in Sources */,
+				E5797871B5BEB53EB0EEC314F96647A0 /* ConstraintMakerPriortizable.swift in Sources */,
+				B069019AABD5D4F6D2CD83C8EF715E38 /* ConstraintMakerRelatable.swift in Sources */,
+				CCD01A9FFEB7955A6ABAE6C5CD64C2D6 /* ConstraintMultiplierTarget.swift in Sources */,
+				B74494F895865B5F6A9665E1F8971A7B /* ConstraintOffsetTarget.swift in Sources */,
+				78BDCF8DAA8DA1F80A3174FD4BC12265 /* ConstraintPriority.swift in Sources */,
+				14C3FD007D32FA8B2585409B40459179 /* ConstraintPriorityTarget.swift in Sources */,
+				00088643AABCD37C2739CB028AA722B9 /* ConstraintRelatableTarget.swift in Sources */,
+				AFCD14D72F4D10E41F5E3CE698DD1C84 /* ConstraintRelation.swift in Sources */,
+				F5BCED1829015DDDCEC615889C6F67FB /* ConstraintView+Extensions.swift in Sources */,
+				8FAA09FB29ECEF071C5C90617931178A /* ConstraintView.swift in Sources */,
+				C03AFCD0E22213543C32F417F6727731 /* ConstraintViewDSL.swift in Sources */,
+				587CF4C7698C3432108A0477720EFB49 /* Debugging.swift in Sources */,
+				0ABC61A258A249862DDD0AAFBE204FF9 /* LayoutConstraint.swift in Sources */,
+				F19D019D9AE41A20CE1006411CD071C9 /* LayoutConstraintItem.swift in Sources */,
+				33DA76B150CA5E68164978639A9BC7E7 /* SnapKit-dummy.m in Sources */,
+				A78E6127A365174D2806E8FB8474C43D /* Typealiases.swift in Sources */,
+				889B3136C4D6FBF1C0142A84C452E3B6 /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7474E9098CA04C2102BDA4F4EB70BCA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = D291254B2BD23E0B9B78A7F2153ED199 /* SnapKit */;
+			targetProxy = 54A96A5A8F8B323459350017057F8223 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09A413E26DF2C1927C381A6837176321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 228E1C888B7216501809E1DD7E886944 /* Pods-WangYiPayWithdraw.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WangYiPayWithdraw/Pods-WangYiPayWithdraw.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		43CCBE1DDEFAD5965D5978A51242A9B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC25BC259F12BCAB6E7357EBC005DAE /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SnapKit/SnapKit.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B1E3C095A447504AFDADEC3667A0F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D26F7E3DB88AD9CC876A6472069C473F /* Pods-WangYiPayWithdraw.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WangYiPayWithdraw/Pods-WangYiPayWithdraw.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDC9D95488FF84C3C2615F9061EF98CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC25BC259F12BCAB6E7357EBC005DAE /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SnapKit/SnapKit.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09601C97221AD067AA3279459CA07A56 /* Build configuration list for PBXNativeTarget "Pods-WangYiPayWithdraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1E3C095A447504AFDADEC3667A0F07 /* Debug */,
+				09A413E26DF2C1927C381A6837176321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62BA6E958D8998B4253D4385286840B2 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43CCBE1DDEFAD5965D5978A51242A9B0 /* Debug */,
+				BDC9D95488FF84C3C2615F9061EF98CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
